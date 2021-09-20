@@ -21,7 +21,7 @@ namespace ConsoleAppUI
             //display all data
             DisplayUserInformations();
 
-            //
+            //wait until press something
             Console.ReadKey(true);
 
         }
