@@ -22,8 +22,6 @@ namespace ConsoleAppUI
             DisplayUserInformations();
 
             //wait until press something
-            //keep this for checking
-            //deeps
             Console.ReadKey(true);
 
         }
