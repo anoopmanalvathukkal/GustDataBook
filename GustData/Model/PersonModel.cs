@@ -13,5 +13,12 @@ namespace GustData.Model
         public string LastName { get; set; }
         public string Message { get; set; }
 
+
+        public void HelloDisplay(string message)
+        {
+            Console.WriteLine($"this message from reference class: {message}");
+        }
+
     }
+
 }

@@ -71,7 +71,9 @@ namespace ConsoleAppUI
                     Console.WriteLine(item.FristName);
                     Console.WriteLine(item.LastName);
                     Console.WriteLine(item.Message);
+                    item.HelloDisplay("just tesing");
                     Console.WriteLine("-----------------------");
+
                 }
 
             }
